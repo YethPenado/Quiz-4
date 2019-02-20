@@ -1,0 +1,15 @@
+﻿Centro de Tecnología y Artes Visuales
+Diseño de Sitios Web lll
+Estudiante: Yeth Penado
+
+
+Archivo Shipping.html vs Archivo Tabs.html
+Se procedió a reescribir el archivo Tabs.html desde cero. A continuación, se detallan los elementos que fueron agregados al archivo Shipping.html en comparación con el archivo original.
+
+    1. Se agregó el elemento DOCTYPE, cuya importancia radica en transmitirle al navegador qué versión de HTML se está utilizando. Esta información determinará la manera en la que el navegador procesará el documento.
+    2. Se agregaron elementos base tales como el <head> y <body>.
+    3. No se hizo uso de la etiqueta <b>, en su lugar, se procederá a dar el estilo bold mediante CSS.
+    4. Los únicos elementos “generales” (sin clase, ni id) en este documento fueron un <h1> y un <button>, ya que están presentes sólo una vez en todo el documento. El archivo Tabs utilizó varios elementos de forma general.
+    5. Uso de un <button> en lugar de un <a>: Al ser un comando de impresión (es decir, una acción, no una reedirección) se utilizó un <button>.
+    6. Se utilizó un <ol> para crear la sección de “pasos”, en lugar de emular una lista numerada.
+    7. Cambio en los nombres de las clases.
